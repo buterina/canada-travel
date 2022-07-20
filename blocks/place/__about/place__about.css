@@ -1,0 +1,9 @@
+.place {
+    grid-area: description;
+}
+
+@media screen and (max-width: 700px) {
+    .place {
+        font-size: 24px;
+    }
+}

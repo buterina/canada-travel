@@ -1,0 +1,40 @@
+.place {
+    margin: 0 auto 80px auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "title website"
+    "photo description";
+    column-gap: 40px;
+    row-gap: 48px;
+    max-width: 984px;
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        margin: 0 48px 73px 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        margin: 0 24px 73px 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place {
+        padding: 0;
+        grid-template-columns: 100vw;
+        grid-template-areas: "title"
+        "website"
+        "photo"
+        "description";
+        gap: 32px;
+        margin: 0 0 50px 0;
+    }
+}

@@ -1,0 +1,10 @@
+.footer_menu {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .footer__menu {
+        align-self: flex-start;
+    }
+}
