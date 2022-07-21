@@ -4,7 +4,7 @@
 
 "Travelling across Canada" is a one-page website featuring some of Canada's national parks
 
-## Technologies:
+## Tech:
 
 -HTML5;
 
